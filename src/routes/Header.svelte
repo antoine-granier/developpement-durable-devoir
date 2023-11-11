@@ -36,7 +36,7 @@
 	</nav>
 
 	<div class="corner">
-		<a href="https://github.com/antoine-granier/developpement-durable-devoir">
+		<a href="https://github.com/antoine-granier/developpement-durable-devoir" target="_blank">
 			<img src={github} alt="GitHub" />
 		</a>
 	</div>
