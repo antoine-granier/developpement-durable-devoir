@@ -89,6 +89,12 @@ button:focus:not(:focus-visible) {
 	}
 }
 
+@media (max-width: 480px) {
+	body {
+		background-size: auto;
+	}
+}
+
 .visually-hidden {
 	border: 0;
 	clip: rect(0 0 0 0);
