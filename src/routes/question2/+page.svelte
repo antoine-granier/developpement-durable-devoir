@@ -49,4 +49,10 @@
 	.right{
 		flex: 1;
 	}
+
+	@media (max-width: 480px) {
+		.question {
+			flex-direction: column;
+		}
+	}
 </style>

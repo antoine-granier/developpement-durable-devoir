@@ -81,16 +81,17 @@
 		margin-left: 1rem;
 		position: relative;
 		padding: .3rem 0;
-		transition: all linear .2s;
-	}
-
-	ul li:hover {
-		scale: 1.2;
 	}
 
 	ul li::before {
 		content: "-";
 		position: absolute;
 		left: -1rem;
+	}
+
+	@media (max-width: 480px) {
+		.question {
+			flex-direction: column;
+		}
 	}
 </style>

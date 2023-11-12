@@ -71,4 +71,10 @@
 		position: absolute;
 		left: -1rem;
 	}
+
+	@media (max-width: 480px) {
+		.question {
+			flex-direction: column;
+		}
+	}
 </style>
